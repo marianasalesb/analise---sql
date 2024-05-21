@@ -1,0 +1,61 @@
+Lista de Exercícios
+
+/* Exercício 01: 
+A escola Jump School está realizando uma análise do status de seus professores. Eles têm uma tabela chamada jump_school_professores que contém informações sobre todos os professores. Uma das colunas nesta tabela é ativo, que indica se o professor está ativo (1) ou inativo (0).Seu trabalho é escrever uma consulta SQL que retorne a situação do professor (‘ATIVO’ ou ‘INATIVO’) e a quantidade de professores em cada situação.​*/
+
+/*Exercício 02:
+Calcular a média de idade dos alunos ativos na escola​*/ 
+
+/*Exercício 03: 
+Na escola Jump, cada aluno recebe uma nota após a conclusão de cada matéria. As notas são armazenadas na tabela jump_school_notas, que contém os campos aluno_id (identificador do aluno) e nota (nota do aluno na matéria).​
+Escreva uma consulta SQL que retorne o aluno_id e a nota de todos os alunos cuja nota é inferior à média geral de notas da escola.​*/
+
+/*Exercício 04:
+Identifique os professores que possuem o salário acima da média*/
+
+
+/*Exercício 05: 
+Utilizando a tabela jump_school_professores, realize as seguintes operações:​
+Calcule a média salarial dos professores, arredondando para o número inteiro mais próximo.​
+Conte quantos professores estão atualmente ativos. ​
+Determine o salário mínimo e máximo entre todos os professores.​
+Ordene e liste os professores pelo salário em ordem crescente. ​
+Apresente os resultados de cada operação.​*/
+
+/*Exercício 06:
+Escreva uma consulta SQL que retorne o aluno_id de todos os alunos do curso com curso_id = 1, cuja nota é superior à média de notas do mesmo curso na tabela jump_school_notas.​*/
+
+/*Exercício 07:
+Selecione a quantidade total de alunos na tabela jump_school_alunos e a média das notas na tabela jump_school_notas. Crie uma coluna adicional para categorizar e informar se aquela linha se refere à Quantidade de Alunos ou Média de Notas. Utilize UNION para o resultado.​*/
+
+/*Exercício 08:
+Escreva uma consulta SQL que retorne o nome do aluno, o nome do curso e a nota do aluno para cada registro na tabela jump_school_notas. Você deve usar junções à esquerda com as tabelas jump_school_notas e jump_school_cursos para garantir que todos os alunos sejam incluídos no resultado, mesmo que não tenham uma nota ou um curso correspondente.*/
+
+/*Exercício 09:
+Liste todos os cursos oferecidos pela escola juntamente com o número de alunos matriculados em cada curso, mesmo que não haja alunos matriculados.*/
+
+/*Exercício 10:
+Escreva uma consulta SQL que retorne o nome do professor, o nome do curso e o salário do professor ​
+(formatado como ‘R$ [salário]’) para cada registro na tabela jump_school_professores. Você garantir que todos os professores sejam incluídos no resultado, mesmo que não tenham um curso correspondente.*/
+
+/*Exercício 11:
+Retorne uma lista com o nome de todos os alunos e o nome do curso em que estão matriculados, excluindo aqueles que não possuem notas registradas.​*/
+
+/*Exercício 12:
+Liste todos os cursos oferecidos pela escola juntamente com o nome dos professores que os ministram, incluindo apenas os cursos que têm professores atribuídos.​*/
+
+/*Exercícios 13:
+Crie um relatório que exiba o nome do aluno, o nome do curso, a nota obtida, o status da data de avaliação (se é antes ou após 01/01/2023) e o salário do professor associado ao curso. Este relatório deve incluir apenas as notas dos alunos que são superiores a 7 e que foram avaliadas após o início do ano de 2023. Utilize as tabelas jump_school_notas, jump_school_alunos, jump_school_cursos e jump_school_professores para compilar as informações necessárias​.*/
+
+/*Exercícios 14:
+Retorne uma lista com o nome de todos os alunos, o nome do curso em que estão matriculados (se houver), suas notas (se existirem) e uma indicação se estão aprovados (nota maior ou igual a 7) ou reprovados (nota menor que 7 ). Caso encontre valor nulo trate.​*/
+
+/*Exercícios 15:
+Crie uma view chamada carga_horaria_cursos que apresente a carga horária total dos cursos ministrados pelos professores ativos da Jump School, categorizando-os como 'Menor que 50 horas', 'Entre 50 e 100 horas', ou 'Maior que 100 horas'.*/
+
+
+
+
+
+
+
